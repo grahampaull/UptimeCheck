@@ -6,6 +6,7 @@ namespace UptimeCheck
     {
         static void Main(string[] args)
         {
+            //Lets Go!
             Console.WriteLine("Hello World!");
         }
     }
