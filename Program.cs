@@ -38,17 +38,17 @@ namespace UptimeCheck
                 {
                     Console.WriteLine("Whoops! You have a 404");
 
-                    //Send an email, just to test
+                    //Send an email
                     //MailMessage mail = new MailMessage();
                     //SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
 
-                    //mail.From = new MailAddress("your_email_address@gmail.com");
-                    //mail.To.Add("graham@whole.school");
+                    //mail.From = new MailAddress("mygmail@gmail.com");
+                    //mail.To.Add("myemailaddress@email.com");
                     //mail.Subject = $"the URL {url} is getting a 404 message";
                     //mail.Body = $"the URL {url} is getting a 404 message";
 
                     //SmtpServer.Port = 587;
-                    //SmtpServer.Credentials = new System.Net.NetworkCredential("username", "password");
+                    //SmtpServer.Credentials = new System.Net.NetworkCredential("", "");
                     //SmtpServer.EnableSsl = true;
                 }
             }
